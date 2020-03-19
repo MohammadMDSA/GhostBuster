@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Assets">
+      <UniqueIdentifier>3c91a58a-a467-4cbe-bdc4-bffe771638ff</UniqueIdentifier>
+      <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{1e85a52b-4e2c-4cb4-ac5d-afba81649250}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{459cf0cc-30f1-4b45-bd83-1b492ec3ca94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{0d24975c-ab77-4d1e-8ddf-c3320c139a88}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectResource.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="StepTimer.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectResource.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\WideLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GhostBuster_TemporaryKey.pfx" />
+  </ItemGroup>
+</Project>
